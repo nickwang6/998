@@ -5,6 +5,19 @@
     <title>998新年快乐啊</title>
   </head>
  <body>
+   <button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+function myFunction(){
+	var x;
+	var person=prompt("请输入你的名字","");
+	if (person!=null && person!=""){
+	    x="hello " + person + "!新年快乐啊 2020咱们一起走，这个小集体的人谁也不能落下，需要靠我们每位成员用心去对待，我相信他能长久走下去 一起嗨，一起乐";
+	    document.getElementById("demo").innerHTML=x;
+	}
+}
+</script>
+
  <marquee behavior="alternate" bgcolor="#FF0000"> <img src='w6.jpg'></marquee>
 <marquee  behavior="scroll" bgcolor="#FFFF66"><img src="w1.jpg"></marquee>
 <marquee behavior="slide" bgcolor="#0000FF"> <img src="w2.jpg"></marquee>
@@ -13,6 +26,7 @@
 <marquee behavior="slide" bgcolor="#660099"><img src="w5.jpg" /></marquee>
 <marquee behavior="alternate" bgcolor="#FF9999"><img src="w8.jpg"></marquee>
 <marquee behavior="scroll" bgcolor="#000000"><img src="w4.jpg"></marquee>
-   <audio src="m1.mp3" autoplay></audio>
+ <audio src="m1.mp3" autoplay></audio>
+   
   </body>
 </html>
